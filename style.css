@@ -17,16 +17,24 @@ body { font-family: 'Inter', serif; }
   padding-top: 25px;
 }
 
-ul {
+.pb25 {
+  padding-bottom: 25px;
+}
+
+ul.home-list {
   list-style-type: none;
 }
 
-ul > li {
+ul.home-list > li {
   font-size: 20px;
   border-bottom: solid 1px #eee;
   padding: 10px 0px;
 }
 
+ul.hash-list > li {
+  margin: 0;
+  padding: 0;
+}
 
 
 
@@ -43,6 +51,8 @@ ul > li {
 
 .footer-fixed {
   position: fixed;
+  background:#fff;
+  z-index:99;
   bottom: 0;
   width: 100%;
 }
