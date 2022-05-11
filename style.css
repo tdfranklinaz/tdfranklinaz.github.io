@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+body { font-family: 'Inter', serif; }
+
+.padding-large {
+  padding: 75px 0px;
+}
+
+.padding-medium {
+  padding: 50px 0px;
+}
+
+.padding-small {
+  padding: 25px 0px;
+}
+
+.pt25 {
+  padding-top: 25px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul > li {
+  font-size: 20px;
+  border-bottom: solid 1px #eee;
+  padding: 10px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer-fixed {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
