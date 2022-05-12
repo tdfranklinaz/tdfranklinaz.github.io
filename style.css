@@ -36,6 +36,21 @@ ul.hash-list > li {
   padding: 0;
 }
 
+ul > li {
+  overflow-wrap: break-word;
+}
+
+@media(max-width: 40.0rem) {
+  .column.column-60.column-offset-20 {
+    margin-left: 0px;
+    max-width: 100%;
+    flex: 0 0 100%;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+}
 
 
 
